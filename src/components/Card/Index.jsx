@@ -1,10 +1,10 @@
 import "./styles.css";
 
-const Card = () => {
+const Card = ({ name, time }) => {
   return (
     <div className="card">
-      <strong>Vittor</strong>
-      <small>10:15:24</small>
+      <strong>{name}</strong>
+      <small>{time}</small>
     </div>
   );
 };
