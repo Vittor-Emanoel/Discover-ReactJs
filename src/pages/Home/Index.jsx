@@ -15,7 +15,7 @@ export function Home() {
         second: "2-digit",
       }),
     };
-    setStudens([newStudent]); //adicionando o objeto no estado
+    setStudens((prevState) => [...prevState, newStudent]); //adicionando o objeto no estado
   }
 
   return (
