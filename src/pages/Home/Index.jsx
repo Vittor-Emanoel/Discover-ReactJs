@@ -22,6 +22,7 @@ export function Home() {
     <div className="container ">
       <h1>Lista de presença</h1>
       <input
+        className="inpt"
         type="text"
         placeholder="Digite o nome.."
         onChange={(e) => setStudentName(e.target.value)} // pegando o valor do input e atualizando o stado
